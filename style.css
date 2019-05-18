@@ -61,7 +61,7 @@ img {
     z-index: 200;
     padding: 12rem 10rem;
     padding-top: 15rem;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
 
     position: absolute;
     top: 25rem;

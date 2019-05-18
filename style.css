@@ -1,0 +1,138 @@
+/******GENERAL SETTINGS******/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #333;
+    
+}
+
+/******LOGO IMAGE NODE.JS******/
+
+img {
+    width: 25%;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+/******CONTAINER******/
+ 
+
+.container {
+    position: relative;
+}
+
+
+.container__question {
+    width: 40%;
+    height: 20rem;
+    background-color: #339933;
+    font-size: 62.5%;
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+    border-radius: 2px;
+    
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}        
+
+.container__paragraph {
+    background-color: #fff;
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: 300;
+    height: 60rem;
+    width: 50%;
+    z-index: 200;
+    padding: 12rem 10rem;
+    padding-top: 15rem;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.9);
+
+    position: absolute;
+    top: 25rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.container__links {
+    background-color: #339933;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 5rem;
+    width: 35rem;
+    height: 5rem;
+    border-radius: 5px;
+    transition: all .3s;
+
+    position: absolute;
+    top: 10rem;
+    right: 25rem;
+}
+
+.container__links:hover {
+    transform: translateX(25rem);
+    text-align: center;
+    height: 30rem;
+    
+}
+
+.container__links--title {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    display: inline;
+    padding-left: 6rem;
+}
+
+.container__links--1:link, .container__links--1:visited,
+.container__links--2:link, .container__links--2:visited,
+.container__links--3:link, .container__links--3:visited{
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+}
+
+.container__links--1:hover, .container__links--1:active,
+.container__links--2:hover, .container__links--2:active,
+.container__links--3:hover, .container__links--3:active {
+    text-decoration: underline;
+}
+
+p:not(:first-child) {
+    padding-top: 2.5rem;
+}
+
+/******ICONS******/
+.logo-nodejs {
+    color: #336633;
+}
+
+.arrow {
+    color: #fff;
+    font-size: 3rem;
+    float: right;
+    padding-top: 1rem;
+    padding-right: 3.5rem;
+}
+
